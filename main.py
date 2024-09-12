@@ -24,5 +24,5 @@ if __name__ == "__main__":
     main()
 
 
-
+# this is the text message for issues
 #  source venv/bin/activate
