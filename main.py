@@ -24,5 +24,5 @@ if __name__ == "__main__":
     main()
 
 
-# this test 2
-#  source venv/bin/activate
+#  git push origin main -git hub commit
+#  source venv/bin/activate - virtual env
