@@ -1,7 +1,7 @@
 from constants import *
 import pygame
-
-
+fps = pygame.time.Clock()
+dt = 0 
 
 def main():
     print("Starting asteroids!")
@@ -15,9 +15,7 @@ def main():
                 return
         screen.fill(pygame.Color("black"))
         pygame.display.flip()
-
-
-
+        dt = fps.tick(60) / 1000
 
 
 if __name__ == "__main__":
