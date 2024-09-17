@@ -11,10 +11,3 @@ class Asteroid(CircleShape):
     def update(self, dt):
         self.position += self.velocity * dt
        
-
-
-# self.x = x
-# self.y = y
-# self.radius = radius
-#self.x += self.velocity.x * dt
-#self.y += self.velocity.y * dt
