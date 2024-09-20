@@ -1,6 +1,6 @@
 from constants import *
 from player import Player
-from asteroid import Asteroid
+from asteroid import *
 from asteroidfield import *
 from circleshape import CircleShape
 from shot import *
@@ -35,7 +35,7 @@ def main():
         for asteroid in asteroids:
             for shot in shots:
                  if shot.collide(asteroid):
-                     asteroid.kill()
+                     asteroid.split()
                      shot.kill()
         screen.fill("black")
         for obj in drawable:
